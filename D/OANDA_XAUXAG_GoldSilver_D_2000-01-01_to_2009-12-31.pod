@@ -1,0 +1,65 @@
+{
+  "pod_version": "4.0",
+  "instrument": "XAU_XAG",
+  "granularity": "D",
+  "chunk_start": "2000-01-01",
+  "chunk_end": "2009-12-31",
+  "parquet_file": "OANDA_XAUXAG_GoldSilver_D_2000-01-01_to_2009-12-31.parquet",
+  "data_file": "OANDA_XAUXAG_GoldSilver_D_2000-01-01_to_2009-12-31.parquet",
+  "row_count": 1106,
+  "first_candle": {
+    "time": 1142805600,
+    "Time": "2006-03-19T22:00:00.000000000Z",
+    "open": 53.464,
+    "high": 53.832,
+    "low": 53.342,
+    "close": 53.753,
+    "volume": 3323
+  },
+  "last_candle": {
+    "time": 1262296800,
+    "Time": "2009-12-31T22:00:00.000000000Z",
+    "open": 65.074,
+    "high": 65.074,
+    "low": 65.005,
+    "close": 65.034,
+    "volume": 31
+  },
+  "csv_file": "OANDA_XAUXAG_GoldSilver_D_2000-01-01_to_2009-12-31.parquet",
+  "csv_row_count": 1106,
+  "csv_first_candle": {
+    "time": 1142805600,
+    "Time": "2006-03-19T22:00:00.000000000Z",
+    "open": 53.464,
+    "high": 53.832,
+    "low": 53.342,
+    "close": 53.753,
+    "volume": 3323
+  },
+  "csv_last_candle": {
+    "time": 1262296800,
+    "Time": "2009-12-31T22:00:00.000000000Z",
+    "open": 65.074,
+    "high": 65.074,
+    "low": 65.005,
+    "close": 65.034,
+    "volume": 31
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-16T02:10:31.000000000Z",
+  "generated_at": "2026-10-16T02:10:31.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2,
+    "chunk_api_blocks": 1,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2006-03-19T22:00:00Z",
+        "to": "2019-11-26T22:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
